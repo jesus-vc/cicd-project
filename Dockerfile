@@ -11,4 +11,4 @@ COPY . .
 #EXPOSE port for the app
 EXPOSE 8080
 #Run node.js app that's inside WORKDIR
-CMD["node","app.js"]
+CMD ["node","app.js"]
